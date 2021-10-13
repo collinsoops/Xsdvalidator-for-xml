@@ -14,8 +14,6 @@ public class Xsdvalidator {
 
     public static void main(String[] args) {
 
-       // System.out.println("EmployeeRequest.xml validates against Employee.xsd? "+validateXMLSchema("student.xsd", "student.xml"));
-        //System.out.println("EmployeeResponse.xml validates against Employee.xsd? "+validateXMLSchema("student.xsd", "student.xml"));
         System.out.println("student.xml validates against sudent.xsd? "+validateXMLSchema("student.xsd", "student.xml"));
 
     }
